@@ -1,16 +1,16 @@
 // ... (arriba de tu componente, antes de PdfBookPage)
-const totalSlides = 10; // Cambiado a 10 porque tienes 10 imágenes
+const totalSlides = 10; 
 const bookImages = [
   "/pdfs/01_Portada.jpg",
-  "/pdfs/02_Imagen.jpg",
-  "/pdfs/03_Imagen.jpg",
-  "/pdfs/04_Imagen.jpg",
-  "/pdfs/05_Imagen.jpg",
-  "/pdfs/06_Imagen.jpg",
-  "/pdfs/07_Imagen.jpg",
-  "/pdfs/08_Imagen.jpg",
-  "/pdfs/09_Imagen.jpg",
-  "/pdfs/10_Contraportada.jpg"
+  "/pdfs/02_Portada.jpg",
+  "/pdfs/03_Portada.jpg",
+  "/pdfs/04_Portada.jpg",
+  "/pdfs/05_Portada.jpg",
+  "/pdfs/06_Portada.jpg",
+  "/pdfs/07_Portada.jpg",
+  "/pdfs/08_Portada.jpg",
+  "/pdfs/09_Portada.jpg",
+  "/pdfs/10_Portada.jpg"
 ];
 
 // ... (dentro de tu componente PdfBookPage)
