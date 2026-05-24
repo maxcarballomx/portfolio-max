@@ -24,13 +24,21 @@ function App() {
           <Route path="/collections" element={<CollectionsPage />} />
           <Route path="/print-quality" element={<PrintQualityPage />} />
           
-          {/* 2. AGREGA ESTA LÍNEA */}
-          <Route path="/pdf-book" element={<h1>¡SÍ FUNCIONA!</h1>} />
+          {/* PRUEBA: Si esto sale en pantalla, el Router funciona */}
+          <Route path="/pdf-book" element={<h1 style={{color: 'red'}}>¡SÍ FUNCIONA!</h1>} />
           
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/shop" element={<ShopPage />} />
-          {/* ... resto de tu código */}
+          
+          {/* Ruta de respaldo para errores 404 */}
+          <Route path="*" element={
+            <div className="min-h-screen flex flex-col items-center justify-center text-center">
+              <h1 className="text-4xl mb-4">404</h1>
+              <p className="text-muted-foreground mb-8">This space does not exist.</p>
+              <a href="/" className="text-primary hover:underline">Return to the archive</a>
+            </div>
+          } />
         </Routes>
         <Footer />
         <Toaster theme="dark" />
