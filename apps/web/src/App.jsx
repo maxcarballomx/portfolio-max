@@ -25,7 +25,7 @@ function App() {
           <Route path="/print-quality" element={<PrintQualityPage />} />
           
           {/* 2. AGREGA ESTA LÍNEA */}
-          <Route path="/pdf-book" element={<PdfBookPage />} /> 
+          <Route path="/pdf-book" element={<h1>¡SÍ FUNCIONA!</h1>} />
           
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutPage />} />
